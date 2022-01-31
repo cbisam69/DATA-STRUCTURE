@@ -10,7 +10,7 @@ int main()
     }
      for(i=0;i<n;i++)
      {
-         printf("array element insertion is %d\n",arr[i]);
+         printf("array element before insertion is %d\n",arr[i]);
      }
  
      printf("enter the elemnt to insert\n");
@@ -26,7 +26,7 @@ int main()
     
      for(i=0;i<=n;i++)
      {
-         printf("array elelmnt after insertion is %d\n",arr[i]);
+         printf("array element after insertion is %d\n",arr[i]);
      }
      return 0;
 }
