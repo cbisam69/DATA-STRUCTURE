@@ -28,6 +28,7 @@ int evalpostfix(char postfix[])
       if(isdigit(symbol))
       {
         token =symbol-'0';
+          push(token,&top,stack);
       }
       else
       {
