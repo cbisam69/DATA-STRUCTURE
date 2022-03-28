@@ -28,7 +28,7 @@ void main()
                    break;
             case 2:if(f>r)
                   {
-                      printf("queue is full\n");
+                      printf("queue is empty\n");
                       break;
                   }
                   del_ele=delete(&f,queue);
@@ -36,7 +36,7 @@ void main()
                   break;
             case 3: if(f>r)
                   {
-                      printf("queue is full\n");
+                      printf("queue is empty\n");
                       break;
                   }
                   display(f,r,queue);
